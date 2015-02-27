@@ -13,7 +13,7 @@ $(window).scroll(function(e) {
 });
 
 $(document).scroll(function() {
-    if( $(this).scrollTop() > 260 ) {
+    if( $(this).scrollTop() > 100 ) {
     	console.log("scrolltop >260");
         if(transparent) {
         	console.log("transparent");
