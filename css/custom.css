@@ -315,7 +315,7 @@
 .header-background-container{
   position: relative;
   width:100%;
-  height:200px;
+  height:100px;
   top:0;
   left:0;
 }
@@ -323,7 +323,7 @@
     background-image: url('../images/header-background.jpg');
     position:fixed;
     width:100%;
-    height:100%;
+    height:1350px;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center -450px;
@@ -347,19 +347,54 @@
     z-index: 3;
 }
 
-.profile {
+div.profile {
     color:#FFFFFF;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.profile p.profile-description: {
+p.profile-description {
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .main {
-	background-color: #FFFFFF;
 	position: relative;;
 }
 
+.experience {
+    background-color: #FFFFFF;
+}
+
+.own-projects {
+    background-color: #DDDDDD;
+}
+
+.skills {
+    background-color: #BBBBBB;
+}
+
+.about-me {
+    background-color: #999999;
+}
+
+.contact {
+    background-color: #777777;
+    opacity: 0.8
+}
+
+div.table {
+    height: 792px; width: 100%; display: table;
+}
+
+div.tablecell {
+    display: table-cell;
+}
+
+div.valign-middle {
+    vertical-align: middle;
+}
 
 
