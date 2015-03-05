@@ -7,16 +7,27 @@ $(window).scroll(function(e) {
         opacityVal = (s / 150.0);
     $('.img-blurred').css('opacity', opacityVal);
 */     
-    oVal = ($(window).scrollTop() / 170);
+    
+    
+    if($(window).scrollTop() <= $(document).height()/2) {
+        oVal = ($(window).scrollTop() / 170);
+    } else {
+        oVal = ($(document).height() -
+        $(window).scrollTop() -
+        $(window).height()) / 170;
+        
+    }
+
+
+
     $(".blur").css("opacity", oVal);
+    
     
 });
 
 $(document).scroll(function() {
     if( $(this).scrollTop() > 100 ) {
-    	console.log("scrolltop >260");
         if(transparent) {
-        	console.log("transparent");
             transparent = false;
             $('nav[role="navigation"]').removeClass('navbar-transparent');
         }

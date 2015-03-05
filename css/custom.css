@@ -288,7 +288,10 @@
 @media (max-width: 999px){ 
     .navbar-transparent{
         padding-top: 0px;
-        background-color: rgba(0, 0, 0, 0.45);
+        background-color: #34ACDC;
+        background-color: rgba(52, 172, 220, 0.97);
+    }
+        
     }
     .navbar-transparent .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-transparent .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-transparent .dropdown-menu > li > a:hover, .navbar-transparent .dropdown-menu > li > a:focus, [class*="navbar-ct"] .dropdown-menu > li > a:hover, [class*="navbar-ct"] .dropdown-menu > li > a:focus{
         color: #FFFFFF;
@@ -381,9 +384,14 @@ p.profile-description {
 }
 
 .contact {
-    background-color: #777777;
-    opacity: 0.8
+    background-color: rgba(0,0,0,0.6);
 }
+
+.footer {
+    background-color: #34ACDC;
+    background-color: rgba(52, 172, 220, 0.3);
+}
+
 
 div.table {
     width: 100%; 
@@ -394,9 +402,18 @@ div.full-height {
     height: calc(100vh - 20px);
 }
 
+div.mid-height {
+    height: calc(50vh - 54px);
+}
+
 div.minus-navbar {
     height: calc(100vh - 90px);
 }
+
+div.navbar-spaced {
+    margin-top: 70px;
+}
+
 
 div.tablecell {
     display: table-cell;
@@ -405,5 +422,14 @@ div.tablecell {
 div.valign-middle {
     vertical-align: middle;
 }
+
+img.img-contact {
+    border: 3px solid #FFFFFF;
+    border-color: rgba(52, 172, 220, 0.97);
+}
+
+
+
+
 
 
