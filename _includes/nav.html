@@ -1,0 +1,65 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#profile">{{ site.title }}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#experience">{% t navigation.experience %}</a>
+                </li>
+                <li>
+                    <a href="#own-projects">{% t navigation.own-projects %}</a>
+                </li>
+                <li>
+                    <a href="#skills">{% t navigation.skills %}</a>
+                </li>
+                <li>
+                    <a href="#about-me">{% t navigation.about %}</a>
+                </li>
+                <li>
+                    <a href="#contact">{% t navigation.contact %}</a>
+                </li>
+                <li> 
+                  <a>|</a> 
+                </li>
+                <li>
+                {% if page.language == "es" %}
+                    {% capture ourbitLink %}http://ourbit.github.io/es/{{ page.url | remove_language }}{% endcapture %}
+                    <a href="{{ ourbitLink }}" >Ourbit Blog</a>
+                {% else if page.language == "en" %}
+                    {% capture ourbitLink %}http://ourbit.github.io/en/{{ page.url | remove_language }}{% endcapture %}
+                    <a href="{{ ourbitLink }}" >Ourbit Blog</a>
+                {% endif %}
+                </li>
+                <li>
+                {% if page.language == "es" %}
+                    {% capture link1 %}{{ site.baseurl }}/en/{{ page.url | remove_language }}{% endcapture %}
+                    <a href="{{ link1 }}" >{% t languages.english-version %}</a>
+                {% else if page.language == "en" %}
+                    {% capture link2 %}{{ site.baseurl }}/es/{{ page.url | remove_language }}{% endcapture %}
+                    <a href="{{ link2 }}" >{% t languages.spanish-version %}</a>
+                {% endif %}
+                </li>
+
+                <!-- {% for page in site.pages %}{% if page.title %}
+                <li>
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </li>
+                {% endif %}{% endfor %} -->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>

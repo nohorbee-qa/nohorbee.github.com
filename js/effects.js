@@ -45,10 +45,10 @@ $(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        var offset = (target.selector == '#profile' ? 100 : 70);
+        var offset = (target.selector == '#profile' ? 0 : 0);
         $('html,body').animate({
           scrollTop: target.offset().top-offset
-        }, 1000);
+        }, 500);
         return false;
       }
     }

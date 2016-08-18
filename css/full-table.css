@@ -1,0 +1,83 @@
+div.profile {
+    color:#FFFFFF;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p.profile-description {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.main {
+	position: relative;;
+}
+
+.experience {
+    background-color: #FFFFFF;
+}
+
+.own-projects {
+    background-color: #81C6DD;    
+}
+
+
+
+
+.skills {
+    background-color: #A9AFCC;
+}
+
+.about-me {
+    background-color: #6A6D7F;
+}
+
+.contact-me {
+    background-color: #FFFFFF;
+}
+
+.contact {
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+div.table {
+    width: 100%; 
+    display: table;
+}
+
+div.full-height {
+    height: calc(100vh - 20px);
+}
+
+div.mid-height {
+    height: calc(50vh - 54px);
+}
+
+div.footer-height {
+    height: calc(30vh - 54px);
+}
+
+div.minus-navbar {
+    height: calc(100vh - 90px);
+}
+
+div.navbar-spaced {
+    margin-top: 70px;
+}
+
+
+div.tablecell {
+    display: table-cell;
+}
+
+div.valign-middle {
+    vertical-align: middle;
+}
+
+img.img-contact {
+    border: 3px solid #FFFFFF;
+    border-color: rgba(52, 172, 220, 0.97);
+}
