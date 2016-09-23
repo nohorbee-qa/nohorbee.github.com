@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Norberto Herz</title>
+    <description>Norberto Herz&#39;s professional portfolio</description>
+    <link>http://nohorbee.github.io//</link>
+    <atom:link href="http://nohorbee.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 23 Sep 2016 10:15:18 -0300</pubDate>
+    <lastBuildDate>Fri, 23 Sep 2016 10:15:18 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>
