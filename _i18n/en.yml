@@ -2,7 +2,7 @@ navigation:
   experience: "Experience"
   own-projects: "Own Projects"
   skills: "Skills"
-  about: "About Me"
+  about: "Interests"
   contact: "Contact"
 languages:
   spanish-version: "Versión en Español"
@@ -10,4 +10,3 @@ languages:
 content:
   description: "I am an IT professional with more than <strong>15 years</strong> of experience in writing <strong>amazing applications</strong>, executing <strong>challenging projects</strong>, and managing <strong>top performers teams</strong>.<br />I have a narrow blend of technical knowledge and management skills which allows me writing code every day without loosing track of the projects big picture"
 experience:
-  

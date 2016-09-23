@@ -20,37 +20,43 @@ p.profile-description {
 }
 
 .own-projects {
-    background-color: #81C6DD;    
+    background-color: #F7F7F7;
 }
-
-
 
 
 .skills {
-    background-color: #A9AFCC;
+  background-color: rgb(234,108,108);
 }
 
 .about-me {
-    background-color: #6A6D7F;
+  background-color: rgb(234,108,108);
+
+
 }
 
 .contact-me {
     background-color: #FFFFFF;
 }
 
-.contact {
-    background-color: rgba(0,0,0,0.6);
-}
 
 
 div.table {
-    width: 100%; 
+    width: 100%;
     display: table;
 }
 
 div.full-height {
-    height: calc(100vh - 20px);
+    height: calc(100vh);
 }
+
+@media only screen and (max-width: 979px) {
+  div.full-height {
+      height: calc(100vh - 54px);
+  }
+}
+
+
+
 
 div.mid-height {
     height: calc(50vh - 54px);
@@ -80,4 +86,15 @@ div.valign-middle {
 img.img-contact {
     border: 3px solid #FFFFFF;
     border-color: rgba(52, 172, 220, 0.97);
+}
+
+
+.equal [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+
+}
+
+.equal{
+  overflow: hidden;
 }
