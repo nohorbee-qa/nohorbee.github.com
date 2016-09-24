@@ -1,12 +1,94 @@
+lang-suffix: "en"
+
+months:
+  january: "January"
+  february: "February"
+  march: "March"
+  april: "April"
+  may: "May"
+  june: "June"
+  july: "July"
+  august: "August"
+  september: "September"
+  october: "October"
+  november: "November"
+  december: "December"
+
 navigation:
   experience: "Experience"
   own-projects: "Own Projects"
   skills: "Skills"
   about: "Interests"
   contact: "Contact"
+
 languages:
   spanish-version: "Versión en Español"
   english-version: "Versión en Inglés"
-content:
+
+profile:
   description: "I am an IT professional with more than <strong>15 years</strong> of experience in writing <strong>amazing applications</strong>, executing <strong>challenging projects</strong>, and managing <strong>top performers teams</strong>.<br />I have a narrow blend of technical knowledge and management skills which allows me writing code every day without loosing track of the projects big picture"
+
 experience:
+  medallia-arg: "Medallia Argentina"
+  medallia-role-title: "Sr. Engineering Manager"
+  medallia-role-desc: "As an Engineering Manager, I'm responsible for running a high performance Engineering team, geographically distributed between Palo Alto and Buenos Aires. <br />My time is accurately divided and ballanced between understanding the product from both, the requirements and the technical point of views, making sure that what is being built adds real value to the company's software platform, driving the Scrum Process to guarantee high performance and predictability by coaching the team, commuinicating with different stakeholders to simplify the path when needed, articulating plans to reflect and track the progress of the projects included on the roadmap, identifying and mitigating risks among others."
+  currently: "Currently"
+  mulesoft-arg: "MuleSoft Argentina"
+  mulesoft-role-title: "Engineering Project Manager"
+  mulesoft-role-desc: "I've spent most of my time at MuleSoft, managing Engineering Teams assigned to strategic partners/high profile integration projects.<br> It was my responsibility to lead high performance teams into solutions building, by using the products and technologies created by the company, providing feedback, tracking and pushing for these products improvements.<br><br> I have worked with MuleESB and CloudHub platform in order to develop Cloud Integrations, turning the company and the team into world-wide pioneers in this area with the natural need of defining the first sets of best practices to enlighten people following this path and building their owns.<br /><br /> After that, I've moved to work closely to the API platform team, running exciting <a href=\"http://raml.org/projects/projects\" target=\"_blank\">community projects</a> to grow the <a href=\"http://raml.org/\" target=\"_blank\">RAML</a> ecosystem. Working on this, I was able to become an expert in the matters of APIs, not only from the developing perspective but also from the building process and business side."
+  ibm-arg: "IBM Argentina"
+  ibm-role-title-1: "Project Manager"
+  ibm-role-desc-1: "During this period my career gradually transitioned from a deeply technical skill centered to a team building and project management oriented.<br />            I've worked as and developed my Project Management skills on the internal \"IBM Accounts\" assigned to different projects (mid-2009 to mid-2011).<br /><br />            After that, I was assigned as Project Manager for the Integration team (10+ people) for \"<a href=\"http://www.tarjetanaranja.com/\" target=\"_blank\">Tarjeta Naranja</a>\" Software Factory.            The team was composed by extremely senior software developers and was the nexus between the existing applications maintained            by the software factory (legacies) and the new developments that require coexistence with the current infrastructure (mid-2011 to August-2012)."
+  ibm-role-title-2: "IT Architect"
+  ibm-role-desc-2: "I've joined IBM Argentina to work as the IT Architect for \"GOYA\" project for \"Telefónica LATAM\" telecommunications group.<br /> It was my responsibility to define the application and integration architecture and lead the specialists          lead developers group (6 people) in designing and building the critical components while mentoring the entire development team (20+ people).          I was in charge of the communication with other interacting teams, such as \"Business Analysis\" (10+ people) and \"Quality Assurance\" (10+ people).        "
+  reserv-arg: "Reserv S.R.L."
+  reserv-role-title: "Lead developer / IT Architect"
+  reserv-role-desc: "While working at Reserv, I've been able to go through a wide range of industries by providing IT services mostly driven by building          Enterprise Applications for the company's customers.<br />          As a lead developer, I've written countless lines of code in many technologies, turning into an expert Software Designer, Technical Leader and finally          IT Architect.<br /><br />          During my stay at Reserv, I was able to refine my technical skills while developing strong leadership capabilities. I have also had a great opportunity          to interact directly with the customers, gathering requirements, and building trust relationships based on honoring the company's commitments."
+  digbang-arg: "Digbang"
+  digbang-role-title: "Software Developer"
+  digbang-role-desc: "I started working at Digbang as a software developer with a solid technical knowledge but and a short experience working for companies.        By working with and excellent group of IT professionals, getting involved into a wide range of projects, and driven by        a never ending curiosity, I was able to leverage my skills at a great pace, becoming a Senior Developer in a little more than one year."
+  vlagusa-arg: "VlagUSA"
+  vlagusa-role-title: "Software Developer"
+  vlagusa-role-desc: "This is where my professional career began. Since it was a small company with two teams of one developer each,  during my stay at VlagUSA I was able to learn about the end-to-end development life-cycle, from requirements gathering to deployment and maintainence.<br />  I wrote 40+ e-commerce applications (shopping carts) for a customers of a wide range of industries. I learned the bad way the reasons for working with best  practices, reusing code, automating test and version the code and databases."
+
+own-projects:
+
+  gallery: "Gallery"
+  links: "Links"
+
+
+  apisar: "APIsAR"
+  apisar-role: "Meetup Group founder and organizer"
+  apisar-desc: "APIsAR (APIs Argentina) is the first and only Argentine community focused on discussing the world of APIs. The community was officially launched on September 9th, 2014 and at the time of its first event, it had more than 300 members, mostly from Argentina, but also from other Latin American countries, as well as Spain."
+  meetup-space: "Meetup space"
+  twitter-account: "Twitter Account"
+  facebook-page: "Facebook page"
+  youtube-channel: "YouTube channel"
+
+  nobel: "Nobel"
+  nobel-role: "Researcher and Developer"
+  nobel-desc: "Nobel is a code generator capable of scaffolding an Arduino application exposing a REST API starting with a Swagger or RAML definition. It is simple to use even for developers with little experience on Arduino, and the ramp up takes minutes. <br /> I built the first version of this tool during a free-style hackathon, and ocasionally maintained it and added some features."
+  nobel-home: "Nobel Home"
+  github-repo: "GitHub Repository"
+  npm-repo: "NPM Repository"
+  blog-posts: "Blog Posts"
+
+  articles: "Articles"
+  articles-role: "Writer"
+  articles-desc: "Blending my passion for Software Development, Research, Writing and Teaching, I spend a good time writing articles to share some knowledge or interests  with the Software community. In addition to the posts on my own blog (<a href=\"http://ourbit.github.io\" target=\"_blank\">OurBit</a>), I have contributed to others' blogs  as well."
+  several: "several"
+
+  arduino-helpers: "Arduino Helpers"
+  arduino-helpers-role: "Researcher and Developer"
+  arduino-helpers-desc: "Arduino Helpers is a set of libraries that let any developer to deal with some electronic components (Arduino compatible) in a higher level manner. By using these libraries, the electronic components are modeled as classes and objects and can encapuslate their own behavior. <br /> This is a community project which main goal is to provide some tools for other developers. As a side effect, it is expected that other developers start contributing to the repository in order to make a big and seasoned library."
+  arduino-helpers-github-repo: "GitHub Repository"
+
+about-me:
+  music: "MUSIC"
+  music-desc: "Since I was a kid, I always enjoyed spending some good time listening and playing. Nowadays, I play guitar and keyboards almost every day and study some theory every now and then."
+  literature: "LITERATURE"
+  literature-desc: "I usually spend several hours a week reading. Though I prefer books, I must confess that my Kindle has become a great Pal. I used to do some short-story writing in the past, but these days I'm mostly focused on writing about Software."
+  robotics: "ROBOTICS"
+  robotics-desc: "I like building and programing electronic devices capable of interacting with the physical world. I consider myself an early bird of the IoT wave. Whenever I find some free time, I am coding some IoT related project."
+  software: "SOFTWARE"
+  software-desc: "This area goes beyond an interest. I have spent my entire professional career dedicated to my true calling: Building Software. I have enjoyed this discipline-art-craft by playing different roles among all these years (Developer, Architect, Manager), which provided me with a wide-range skillset and a deep knowledge of the SDLC."

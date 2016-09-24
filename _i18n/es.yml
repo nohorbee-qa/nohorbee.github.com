@@ -1,3 +1,20 @@
+lang-suffix: "es"
+
+months:
+  january: "Enero"
+  february: "Febrero"
+  march: "Marzo"
+  april: "Abril"
+  may: "Mayo"
+  june: "Junio"
+  july: "Julio"
+  august: "Agosto"
+  september: "Septiembre"
+  october: "Octubre"
+  november: "Noviembre"
+  december: "Diciembre"
+
+
 navigation:
   experience: "Experiencia"
   own-projects: "Projectos propios"
@@ -7,6 +24,70 @@ navigation:
 languages:
   spanish-version: "Spanish Version"
   english-version: "English Version"
-content:
-  description: "I am an IT professional with more than <strong>15 years</strong> of experience in writing <strong>amazing applications</strong> and managing <strong>challenging projects</strong>.<br />I have a narrow blend of technical knowledge and management skills which allows me writing code every day without loosing track of the project big picture"
+profile:
   description: "Soy un profesional de la industria de IT con más de <strong>15 años</strong> de experiencia escribiendo <strong>aplicaciones sorprendentes</strong> y dirigiendo <strong>proyectos desafiantes</strong>.<br />He logrado una combinación de conocimiento técnico y habilidades de gestión que me permiten escribir código todos los días sin perder de vista las necesidades generales de los proyectos"
+
+experience:
+  medallia-arg: "Medallia Argentina"
+  medallia-role-title: "Sr. Engineering Manager"
+  medallia-role-desc: "Como Manager de Ingeniería, es mi responsabilidad coordinar un equipo de Ingeniería de alta performance, distribuido geográficamente entre Palo Alto y Buenos Aires.<br /> Mis tiempos son divididos y balanceados de manera precisa entre: comprender el producto desde el punto de vista técnico y de requerimientos, asegurar de que lo que se está construyendo aporta un valor real a la plataforma de software de la compañía, conducir el proceso de Scrum para garantizar alta performance y predictibilidad mediante coaching al equipo, establecer la comunicación con los diferentes actores con el fin de simplificar el camino cuando es necesario, construir los planes para reflejar y dar seguimiento de los proyectos incluidos en el roadmap, identificar y mitigar riesgos, entre otros."
+  currently: "Actualmente"
+  mulesoft-arg: "MuleSoft Argentina"
+  mulesoft-role-title: "Engineering Project Manager"
+  mulesoft-role-desc: "La mayor parte de mi estadía en MuleSoft me dediqué a la coordinación de equipos asignados a proyectos de integración para partners estratégicos y de alto perfil. <br /> Entre mis responsabilidades se encontraban: liderar equipos altamente performantes hacia la construcción de soluciones de software, utilizando productos y tecnologías creados por la compañía, proveer feedback, realizar seguimiento e influenciar para que se realizaran mejoras en los productos.<br><br>He trabajado con MuleESB y CloudHub platform para desarrollar integraciones Cloud, convirtiendo a la compañía y el equipo en pioneros a nivel mundial en este área, con la necesidad natural de definir el primer conjunto de buenas prácticas para guiar a otras personas que fueran a seguir este camino y constuir sus propias aplicaciones<br /><br /> Luego, cambié de área para trabjar en forma conjunta con el equipo de API Platform, coordinando el desarrollo de <a href=\"http://raml.org/projects/projects\" target=\"_blank\">proyectos de tipo \"community\" (Open Source)</a> con el objetivo de hacer crecer el ecosistema <a href=\"http://raml.org/\" target=\"_blank\">RAML</a>. Durante este período me convertí en un experto en APIs, no solo desde el punto de vista del desarrollo, sino también desde el proceso de construcción y los aspectos de negocio."
+  ibm-arg: "IBM Argentina"
+  ibm-role-title-1: "Gerente de Proyectos"
+  ibm-role-desc-1: "Durante este período roté gradualmente de una carrera centrada fuertemente en habilidades técnicas hacia una orientada a la construcción de equipos y gerencia de proyectos.<br /> Trabajé como Gerente de Proyectos desarrollé estos conocimientos y habilidades dentro de las \"cuentas internas de IBM\" asignado a diferentes proyectos (mediados del 2009 a mediados del 2011).<br /><br /> Luego de eso, fui asignado como Gerente de Proyectos para el Equipo de Integración (10+ personas) de la Software Factory de \"<a href=\"http://www.tarjetanaranja.com/\" target=\"_blank\">Tarjeta Naranja</a>\". El equipo estaba compuesto por desarrolladores de software extremadamente expertos y era el nexo entre las aplicaciones existenes, mantenidas por la Software Factory (legados) y los nuevos desarrollos que requerían coexistencia con la infraestructura existente (mediados del 2011 a Agosto del 2012)."
+  ibm-role-title-2: "Arquitecto IT"
+  ibm-role-desc-2: "Me uní a IBM Argentina para desempeñarme como el Arquitecto IT del proyecto \"GOYA\" para el Grupo de Telecomunicaciones \"Telefónica LATAM\". <br /> Entre mi responsabilidades se encontraban: definir la arquitectura de la aplicación e integración, liderar el grupo de desarrolladores senior (6 personas) con la misión de diseñar y construir los componentes críticos mientras guiabamos al equipo de desarrollo completo (20+ personas). Yo estaba a cargo de la comunicación con otros equipos, como ser el de los \"Analistas de Negocio\" (10+ personas) y \"Control de Calidad\" (10+ personas).  "
+  reserv-arg: "Reserv S.R.L."
+  reserv-role-title: "Lider de desarrollo / Arquitecto IT"
+  reserv-role-desc: "Trabajando en Reserv tuve la posibilidad de pasar por un amplio rango de industras, proveyendo servicios de IT mayoritariamente construyendo Aplicaciones \"Enterprise\" para los clientes de la compañía.<br /> Como lider de desarrollo, escribí incontables líneas de código en diferentes tecnologías, convirtiendome en un experto diseñador de software, líder técnico y finalmente Arquitecto IT.<br /> <br /> Durante mi estadía en Reserv, logré refinar mis habilidades técnicas mientras que desarrollaba sólidas capacidades de liderazgo. También tuve la oportunidad de interactuar directamente con los clientes, relevando requerimientos, y construyendo relaciones de confianza basadas en cumplir con los compromisos de la compañía."
+  digbang-arg: "Digbang"
+  digbang-role-title: "Desarrollador de Software"
+  digbang-role-desc: "Comencé trabajadoen Digbang como desarrollador de Software con sólidos conocimientos técnicos pero poca experiencia trabajando en empresas. Trabajando con un excelente grupo de profesionales de la industria de IT, involucrándome en una amplia variedad de proyectos, e impulsado por una inagotable curiosidad, pude mejorar mis habilidades rápidamente, convirtiéndome en Desarrollador Senior en poco más de un año."
+  vlagusa-arg: "VlagUSA"
+  vlagusa-role-title: "Desarrollador de Software"
+  vlagusa-role-desc: "Aquí comenzó mi carrera profesional. Debido a que se trataba de una pequeña empresa con dos equipos de un desarrollador, durante mi estadía en VlagUSA pude aprender acerca del ciclo de vida del desarrollo de punta a punta, desde el relevamiento de requerimientos hasta la implementación y mantenimiento de las aplicaciones.<br /> Escribí 40+ aplicaciones de e-commerce (carros de compra) para clientes de un amplio rango de industrias. Aprendí (de la mala manera) los motivos para trabajar con buenas prácticas, reutilizar, automatizar pruebas y versionar código y bases de datos."
+
+own-projects:
+
+  gallery: "Galeria"
+  links: "Enlaces"
+
+
+  apisar: "APIsAR"
+  apisar-role: "Fundador y Organizador del grupo de Meetup"
+  apisar-desc: "APIsAR (APIs Argentina) es la primer y única comunidad dedicada a debatir acerca del mundo de las APIs. La comunidad fue lanzada oficialmente el 9 de Septiembre del 2015 y al momento de su primer evento, contaba con más de 300 miembros principalmente de Argentina, otros países de Latino América y España."
+  meetup-space: "Espacio en Meetup"
+  twitter-account: "Cuenta de Twitter"
+  facebook-page: "Página de Facebook"
+  youtube-channel: "Canal de YouTube"
+
+  nobel: "Nobel"
+  nobel-role: "Investigador y Desarrollador"
+  nobel-desc: "Nobel es un generador de código capáz de escribir el esqueleto de una aplicación para Arduino exponiendo una API REST, partiendo de una definición Swagger o RAML. Es sencillo de usar incluso para desarrolladores con poca experiencia en Arduino, y la curva de aprendizaje lleva apenas unos minutos.<br /> Construí la primer versión de esta herramienta durante una hackathon libre, y ocasionalmente fui manteniendola y agregando algunas funcionalidades."
+  nobel-home: "Sitio Web"
+  github-repo: "Repositorio GitHub"
+  npm-repo: "Repositorio NPM"
+  blog-posts: "Blog Posts"
+
+  articles: "Artículos"
+  articles-role: "Escritor"
+  articles-desc: "Mezclando mi pasión por el Desarrollo de Software, la investigación, la escritura y la enseñanza, paso una buena cantidad de tiempo escribiendo artículos para compartir conocimientos o intereses con la comunidad de Software. Además de los posts en mi propio blog (<a href=\"http://ourbit.github.io\" target=\"_blank\">OurBit</a>), he contribuido a otros blogs también."
+  several: "varios"
+
+  arduino-helpers: "Arduino Helpers"
+  arduino-helpers-role: "Investigador y Desarrollador"
+  arduino-helpers-desc: "Arduino Helpers es un set de librerías que permiten a cualquier desarrollador manejar componentes electrónicos (compatibles con Arduino) de una forma más abstacta. Utilizando estas librerías, los componentes son modelados como clases y objetos y pueden encapsular su propio comportamiento. <br /> Este es un proyecto \"community\" cuyo mayor objetivo es el de proveer algunas herramientas para otros desarrolladores. Como un efecto secundario, es esperado que otros desarrolladores comiencen a contribuir con el repositorio para hacer una librería más grande y variada."
+  arduino-helpers-github-repo: "Repositorio GitHub"
+
+about-me:
+  music: "MUSICA"
+  music-desc: "Desde chico, siempre disfruté pasar una buena cantidad de tiempo escuchando y tocando música. En la actualidad too guitarra y teclados casi todos los días y estudio un poco de teoría de vez en cuando."
+  literature: "LITERATURA"
+  literature-desc: "Habitualmente paso varias horas por semana leyendo. A pesar de preferir los libros, debo confesar que mi Kindle se ha convertido en un gran compañero. En el pasado solía escribir algunos cuentos, pero actualmente me encuentro más enfocado en escribir acerca de Software."
+  robotics: "ROBOTICA"
+  robotics-desc: "Me gusta construir y programar dispositivos electrónicos capaces de interactuar con el mundo físico. Me considero un precursor de la ola de IoT. Cuando encuentro algo de tiempo libre, me dedico a desarrollar algún proyecto relacionado con IoT."
+  software: "SOFTWARE"
+  software-desc: "Este área va más allá de un mero interés. He pasado toda mi carrera profesional dedicado a mi verdadrea vocación: Constuir Software. He disfrutado esta disciplina-arte-artesanía desempeñando diferentes roles a lo largo de estos años (Desarrollador, Arquitecto, Manager), lo cual me ha provisto de un amplio rango de habilidades y conocimientos y un profundo conocimiento y entendimiento del ciclo de vida de desarrollo de Software."
