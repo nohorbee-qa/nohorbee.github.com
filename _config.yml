@@ -3,7 +3,7 @@ title: Norberto Herz
 header-img: img/header-background.jpg
 header-img-blur: img/header-background-blur.jpg
 description: "Norberto Herz's professional portfolio"
-url: "http://nohorbee.github.io/"
+url: "http://norbertoherz.com/"
 twitter_username: nohorbee
 github_username:  nohorbee
 facebook_username:  nohorbee
@@ -21,4 +21,10 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 #Multilingual
-languages: ['es', 'en']
+languages: ['en', 'es']
+
+gems:
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate
+
+#exclude_from_localizations: ["javascript", "images", "css"]

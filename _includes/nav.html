@@ -34,20 +34,21 @@
                   <a>|</a>
                 </li>
                 <li>
-                {% if page.language == "es" %}
-                    {% capture ourbitLink %}http://ourbit.github.io/es/{{ page.url | remove_language }}{% endcapture %}
+
+                {% if site.lang == "es" %}
+                    {% capture ourbitLink %}http://ourbit.norbertoherz.com/es{{ page.url | remove_language }}{% endcapture %}
                     <a href="{{ ourbitLink }}" >Ourbit Blog</a>
                 {% else if page.language == "en" %}
-                    {% capture ourbitLink %}http://ourbit.github.io/en/{{ page.url | remove_language }}{% endcapture %}
+                    {% capture ourbitLink %}http://ourbit.norbertoherz.com{{ page.url | remove_language }}{% endcapture %}
                     <a href="{{ ourbitLink }}" >Ourbit Blog</a>
                 {% endif %}
                 </li>
                 <li>
-                {% if page.language == "es" %}
-                    {% capture link1 %}{{ site.baseurl }}/en/{{ page.url | remove_language }}{% endcapture %}
+                {% if site.lang == "es" %}
+                    {% capture link1 %}{{ page.url | remove_language }}{% endcapture %}
                     <a href="{{ link1 }}" >{% t languages.english-version %}</a>
-                {% else if page.language == "en" %}
-                    {% capture link2 %}{{ site.baseurl }}/es/{{ page.url | remove_language }}{% endcapture %}
+                {% else if site.lang == "en" %}
+                    {% capture link2 %}/es{{ page.url | remove_language }}{% endcapture %}
                     <a href="{{ link2 }}" >{% t languages.spanish-version %}</a>
                 {% endif %}
                 </li>
