@@ -1,0 +1,45 @@
+{% assign about-me = site.sections[page.lang].about-me %}
+<section id="about-me">
+  <div class="main about-me">
+    <div class="container" style="width: 100%;">
+      <div class="row">
+        <div class="col-md-12" style="padding: 0px;">
+          <div class="table full-height" style="margin-bottom: 0px">
+            <div class="tablecell valign-middle">
+              <div class="container">
+                <div class="row" style="background-color: rgba(255,255,255,0.15)">
+                  <div class="col-md-12"><h1 style="color: rgb(234,108,108)">{{ site.navigation[page.lang].about.title }}</h1></div>
+
+
+                      <div class="col-md-6">
+                          <h4>{{ about-me.music }}</h4>
+                          <p>{{ about-me.music-desc }}
+                          </p>
+                      </div>
+                      <div class="col-md-6">
+                        <h4>{{ about-me.literature }}</h4>
+                        <p>{{ about-me.literature-desc }}
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                          <h4>{{ about-me.robotics }}</h4>
+                          <p>{{ about-me.robotics-desc }}
+                          </p>
+                      </div>
+                      <div class="col-md-6">
+                        <h4>{{ about-me.software }}</h4>
+                        <p>{{ about-me.software-desc }}
+                        </p>
+                      </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

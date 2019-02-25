@@ -1,0 +1,342 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+image:
+  socialmedia.png
+title:
+  en: Norberto Herz
+  es: Norberto Herz
+description:
+  en: Norberto Herz's porfolio
+  es: Porfolio de Norberto Herz
+index:
+  en: index.html
+  es: index.es.html
+navigation:
+  en:
+    experience:
+        title: "Experience"
+        path: "#experience"
+    own-projects:
+        title: "Own Projects"
+        path: "#own-projects"
+    skills:
+        title: "Skills"
+        path: "#skills"
+    about:
+        title: "Interests"
+        path: "#about-me"
+    contact:
+        title: "Contact"
+        path: "#contact"
+    split:
+        title: "|"
+    ourbit-blog:
+        title: "Ourbit blog"
+        url: "http://ourbit.norbertoherz.com"
+  es:
+    experience:
+        title: "Experiencia"
+        path: "#experience"
+    own-projects:
+        title: "Proyectos Propios"
+        path: "#own-projects"
+    skills:
+        title: "Habilidades"
+        path: "#skills"
+    about:
+        title: "Intereses"
+        path: "#about-me"
+    contact:
+        title: "Contacto"
+        path: "#contact"
+    split:
+        title: "|"
+    ourbit-blog:
+        title: "Ourbit blog"
+        url: "http://ourbit.norbertoherz.com/index.es.html"
+
+lang:
+  version:
+    en: "English Version"
+    es: "Versión en Español"
+  currently:
+    en: Currently
+    es: Actualmente
+
+sections:
+  en:
+    profile:
+      description: "I am an IT professional with more than <strong>15 years</strong> of experience in writing <strong>amazing applications</strong>, executing <strong>challenging projects</strong>, and managing <strong>top performers teams</strong>.<br />I have a narrow blend of technical knowledge and management skills which allows me writing code every day without loosing track of the projects big picture"
+
+    experience:
+      Avature:
+        company:
+          name: "Avature Argentina"
+          link: "http://www.avature.net"
+        roles:
+          engdirector:
+            title: "Director of Engineering"
+            description: "Running the Integrations Platform organization pursuing the mission of connecting the Avature Platform with the world in a smart an efficient manner.
+As a Director of Engineering, I'm in charge of defining and executing the company's strategy for connecting our platform with virtually any existing system. I'm responsible for setting a common direction for our organization's team in order to achieve our milestones."
+            since: 01/2019
+            #until: TBC
+          srmanager:
+            title: "Engineering Manager"
+            description: "Managing and growing Product Engineering teams building modules to support critical missions for Avature, such as Processes Automation and Employee Engagement.
+As an Engineering Manager, it is my responsibility to lead high-performance teams to success by orchestrating complex aspects of software development. I use a blend of technical and managerial skills to drive my teams into achieving remarkable milestones and encouraging other teams to be part of a transformative culture."
+            since: 10/2016
+            until: 12/2018
+      medallia:
+        company:
+          name: "Medallia Argentina"
+          link: "http://www.medallia.com"
+        roles:
+          srmanager:
+            title: "Sr. Engineering Manager"
+            description: "As an Engineering Manager, I'm responsible for running a high performance Engineering team, geographically distributed between Palo Alto and Buenos Aires. <br />My time is accurately divided and ballanced between understanding the product from both, the requirements and the technical point of views, making sure that what is being built adds real value to the company's software platform, driving the Scrum Process to guarantee high performance and predictability by coaching the team, commuinicating with different stakeholders to simplify the path when needed, articulating plans to reflect and track the progress of the projects included on the roadmap, identifying and mitigating risks among others."
+            since: 04/2015
+            until: 09/2016
+      mulesoft:
+        company:
+          name: "MuleSoft Argentina"
+          link: "http://www.mulesoft.com"
+        roles:
+          engpm:
+            title: "Engineering Project Manager"
+            description: "I've spent most of my time at MuleSoft, managing Engineering Teams assigned to strategic partners/high profile integration projects.<br> It was my responsibility to lead high performance teams into solutions building, by using the products and technologies created by the company, providing feedback, tracking and pushing for these products improvements.<br><br> I have worked with MuleESB and CloudHub platform in order to develop Cloud Integrations, turning the company and the team into world-wide pioneers in this area with the natural need of defining the first sets of best practices to enlighten people following this path and building their owns.<br /><br /> After that, I've moved to work closely to the API platform team, running exciting <a href=\"http://raml.org/projects/projects\" target=\"_blank\">community projects</a> to grow the <a href=\"http://raml.org/\" target=\"_blank\">RAML</a> ecosystem. Working on this, I was able to become an expert in the matters of APIs, not only from the developing perspective but also from the building process and business side."
+            since: 09/2012
+            until: 03/2015
+      ibm:
+        company:
+          name: "IBM Argentina"
+          link: "http://www.ibm.com"
+        roles:
+          pm:
+            title: "Project Manager"
+            description: "During this period my career gradually transitioned from a deeply technical skill centered to a team building and project management oriented.<br />            I've worked as and developed my Project Management skills on the internal \"IBM Accounts\" assigned to different projects (mid-2009 to mid-2011).<br /><br />            After that, I was assigned as Project Manager for the Integration team (10+ people) for \"<a href=\"http://www.tarjetanaranja.com/\" target=\"_blank\">Tarjeta Naranja</a>\" Software Factory.            The team was composed by extremely senior software developers and was the nexus between the existing applications maintained            by the software factory (legacies) and the new developments that require coexistence with the current infrastructure (mid-2011 to August-2012)."
+            since: 06/2009
+            until: 08/2012
+          itarch:
+            title: "IT Architect"
+            description: "I've joined IBM Argentina to work as the IT Architect for \"GOYA\" project for \"Telefónica LATAM\" telecommunications group.<br /> It was my responsibility to define the application and integration architecture and lead the specialists          lead developers group (6 people) in designing and building the critical components while mentoring the entire development team (20+ people).          I was in charge of the communication with other interacting teams, such as \"Business Analysis\" (10+ people) and \"Quality Assurance\" (10+ people).        "
+            since: 02/2008
+            until: 06/2009
+      reserv:
+        company:
+          name: "Reserv S.R.L."
+          link: "http://www.reserv.com.ar"
+        roles:
+          leaditarch:
+            title: "Lead developer / IT Architect"
+            description: "While working at Reserv, I've been able to go through a wide range of industries by providing IT services mostly driven by building          Enterprise Applications for the company's customers.<br />          As a lead developer, I've written countless lines of code in many technologies, turning into an expert Software Designer, Technical Leader and finally          IT Architect.<br /><br />          During my stay at Reserv, I was able to refine my technical skills while developing strong leadership capabilities. I have also had a great opportunity          to interact directly with the customers, gathering requirements, and building trust relationships based on honoring the company's commitments."
+            since: 08/2004
+            until: 01/2008
+      digbang:
+        company:
+          name: "Digbang"
+          link: "http://www.digbang.com"
+        roles:
+          dev:
+            title: "Software Developer"
+            description: "I started working at Digbang as a software developer with a solid technical knowledge but and a short experience working for companies.        By working with and excellent group of IT professionals, getting involved into a wide range of projects, and driven by        a never ending curiosity, I was able to leverage my skills at a great pace, becoming a Senior Developer in a little more than one year."
+            since: 05/2003
+            until: 08/2004
+      vlagusa:
+        company:
+          name: "VlagUSA"
+          link: ""
+        roles:
+          dev:
+            title: "Software Developer"
+            description: "This is where my professional career began. Since it was a small company with two teams of one developer each,  during my stay at VlagUSA I was able to learn about the end-to-end development life-cycle, from requirements gathering to deployment and maintainence.<br />  I wrote 40+ e-commerce applications (shopping carts) for a customers of a wide range of industries. I learned the bad way the reasons for working with best  practices, reusing code, automating test and version the code and databases."
+            since: 05/2002
+            until: 04/2003
+
+    own-projects:
+
+      gallery: "Gallery"
+      links: "Links"
+
+
+      apisar: "APIsAR"
+      apisar-role: "Meetup Group founder and organizer"
+      apisar-desc: "APIsAR (APIs Argentina) is the first and only Argentine community focused on discussing the world of APIs. The community was officially launched on September 9th, 2014 and at the time of its first event, it had more than 300 members, mostly from Argentina, but also from other Latin American countries, as well as Spain."
+      meetup-space: "Meetup space"
+      twitter-account: "Twitter Account"
+      facebook-page: "Facebook page"
+      youtube-channel: "YouTube channel"
+
+      nobel: "Nobel"
+      nobel-role: "Researcher and Developer"
+      nobel-desc: "Nobel is a code generator capable of scaffolding an Arduino application exposing a REST API starting with a Swagger or RAML definition. It is simple to use even for developers with little experience on Arduino, and the ramp up takes minutes. <br /> I built the first version of this tool during a free-style hackathon, and ocasionally maintained it and added some features."
+      nobel-home: "Nobel Home"
+      github-repo: "GitHub Repository"
+      npm-repo: "NPM Repository"
+      blog-posts: "Blog Posts"
+
+      articles: "Articles"
+      articles-role: "Writer"
+      articles-desc: "Blending my passion for Software Development, Research, Writing and Teaching, I spend a good time writing articles to share some knowledge or interests  with the Software community. In addition to the posts on my own blog (<a href=\"http://ourbit.github.io\" target=\"_blank\">OurBit</a>), I have contributed to others' blogs  as well."
+      several: "several"
+
+      arduino-helpers: "Arduino Helpers"
+      arduino-helpers-role: "Researcher and Developer"
+      arduino-helpers-desc: "Arduino Helpers is a set of libraries that let any developer to deal with some electronic components (Arduino compatible) in a higher level manner. By using these libraries, the electronic components are modeled as classes and objects and can encapuslate their own behavior. <br /> This is a community project which main goal is to provide some tools for other developers. As a side effect, it is expected that other developers start contributing to the repository in order to make a big and seasoned library."
+      arduino-helpers-github-repo: "GitHub Repository"
+
+    about-me:
+      music: "MUSIC"
+      music-desc: "Since I was a kid, I always enjoyed spending some good time listening and playing. Nowadays, I play guitar and keyboards almost every day and study some theory every now and then."
+      literature: "LITERATURE"
+      literature-desc: "I usually spend several hours a week reading. Though I prefer books, I must confess that my Kindle has become a great Pal. I used to do some short-story writing in the past, but these days I'm mostly focused on writing about Software."
+      robotics: "ROBOTICS"
+      robotics-desc: "I like building and programing electronic devices capable of interacting with the physical world. I consider myself an early bird of the IoT wave. Whenever I find some free time, I am coding some IoT related project."
+      software: "SOFTWARE"
+      software-desc: "This area goes beyond an interest. I have spent my entire professional career dedicated to my true calling: Building Software. I have enjoyed this discipline-art-craft by playing different roles among all these years (Developer, Architect, Manager), which provided me with a wide-range skillset and a deep knowledge of the SDLC."
+  es:
+    profile:
+      description: "Soy un profesional de la industria de IT con más de <strong>15 años</strong> de experiencia escribiendo <strong>aplicaciones sorprendentes</strong> y dirigiendo <strong>proyectos desafiantes</strong>.<br />He logrado una combinación de conocimiento técnico y habilidades de gestión que me permiten escribir código todos los días sin perder de vista las necesidades generales de los proyectos"
+
+    experience:
+      Avature:
+        company:
+          name: "Avature Argentina"
+          link: "http://www.avature.net"
+        roles:
+          engdirector:
+            title: "Director of Engineering"
+            description: "Conduciendo a la organización de \"Integrations Platform\" en la misión de conectar la plataforma de Avature con el mundo de manera eficiente.
+Como Director de Ingeniería, estoy encargado de definir y ejecutar la estrategia de la compañía de cara a lograr el objetivo de conectar nuestra plataforma con cualquier sistema existente. Tengo la responsabilidad de definir una dirección en común para todos los equipos de nuestra organización para alcanzar nuestros desafíos."
+            since: 01/2019
+            #until: TBC
+          srmanager:
+            title: "Engineering Manager"
+            description: "Liderando y haciendo crecer los equipos de \"Product Engineering\" encargados de construir módulos que contribuyen a misiones críticas para Avature, como ser Automatización de Procesos y \"Engagement\" del empleado. Como Manager de Ingeniería, es mi responsabilidad conducir al éxito a equipos de alto rendimiento mediante la coordinación de diferentes aspectos complejos del desarrollo de software. Utilizo una combinación de conocimientos técnicos y habilidades de management para lograr que mis equipos alcancen hitos notables e incentivar a otros equipos a participar de una cultura transformadora."
+            since: 10/2016
+            until: 12/2018
+      medallia:
+        company:
+          name: "Medallia Argentina"
+          link: "http://www.medallia.com"
+        roles:
+          srmanager:
+            title: "Sr. Engineering Manager"
+            description: "Como Manager de Ingeniería, es mi responsabilidad coordinar un equipo de Ingeniería de alta performance, distribuido geográficamente entre Palo Alto y Buenos Aires.<br /> Mis tiempos son divididos y balanceados de manera precisa entre: comprender el producto desde el punto de vista técnico y de requerimientos, asegurar de que lo que se está construyendo aporta un valor real a la plataforma de software de la compañía, conducir el proceso de Scrum para garantizar alta performance y predictibilidad mediante coaching al equipo, establecer la comunicación con los diferentes actores con el fin de simplificar el camino cuando es necesario, construir los planes para reflejar y dar seguimiento de los proyectos incluidos en el roadmap, identificar y mitigar riesgos, entre otros."
+            since: 04/2015
+            until: 09/2016
+      mulesoft:
+        company:
+          name: "MuleSoft Argentina"
+          link: "http://www.mulesoft.com"
+        roles:
+          engpm:
+            title: "Engineering Project Manager"
+            description: "La mayor parte de mi estadía en MuleSoft me dediqué a la coordinación de equipos asignados a proyectos de integración para partners estratégicos y de alto perfil. <br /> Entre mis responsabilidades se encontraban: liderar equipos altamente performantes hacia la construcción de soluciones de software, utilizando productos y tecnologías creados por la compañía, proveer feedback, realizar seguimiento e influenciar para que se realizaran mejoras en los productos.<br><br>He trabajado con MuleESB y CloudHub platform para desarrollar integraciones Cloud, convirtiendo a la compañía y el equipo en pioneros a nivel mundial en este área, con la necesidad natural de definir el primer conjunto de buenas prácticas para guiar a otras personas que fueran a seguir este camino y constuir sus propias aplicaciones<br /><br /> Luego, cambié de área para trabjar en forma conjunta con el equipo de API Platform, coordinando el desarrollo de <a href=\"http://raml.org/projects/projects\" target=\"_blank\">proyectos de tipo \"community\" (Open Source)</a> con el objetivo de hacer crecer el ecosistema <a href=\"http://raml.org/\" target=\"_blank\">RAML</a>. Durante este período me convertí en un experto en APIs, no solo desde el punto de vista del desarrollo, sino también desde el proceso de construcción y los aspectos de negocio."
+            since: 09/2012
+            until: 03/2015
+      ibm:
+        company:
+          name: "IBM Argentina"
+          link: "http://www.ibm.com"
+        roles:
+          pm:
+            title: "Gerente de Proyectos"
+            description: "Durante este período roté gradualmente de una carrera centrada fuertemente en habilidades técnicas hacia una orientada a la construcción de equipos y gerencia de proyectos.<br /> Trabajé como Gerente de Proyectos desarrollé estos conocimientos y habilidades dentro de las \"cuentas internas de IBM\" asignado a diferentes proyectos (mediados del 2009 a mediados del 2011).<br /><br /> Luego de eso, fui asignado como Gerente de Proyectos para el Equipo de Integración (10+ personas) de la Software Factory de \"<a href=\"http://www.tarjetanaranja.com/\" target=\"_blank\">Tarjeta Naranja</a>\". El equipo estaba compuesto por desarrolladores de software extremadamente expertos y era el nexo entre las aplicaciones existenes, mantenidas por la Software Factory (legados) y los nuevos desarrollos que requerían coexistencia con la infraestructura existente (mediados del 2011 a Agosto del 2012)."
+            since: 06/2009
+            until: 08/2012
+          itarch:
+            title: "Arquitecto IT"
+            description: "Me uní a IBM Argentina para desempeñarme como el Arquitecto IT del proyecto \"GOYA\" para el Grupo de Telecomunicaciones \"Telefónica LATAM\". <br /> Entre mi responsabilidades se encontraban: definir la arquitectura de la aplicación e integración, liderar el grupo de desarrolladores senior (6 personas) con la misión de diseñar y construir los componentes críticos mientras guiabamos al equipo de desarrollo completo (20+ personas). Yo estaba a cargo de la comunicación con otros equipos, como ser el de los \"Analistas de Negocio\" (10+ personas) y \"Control de Calidad\" (10+ personas).  "
+            since: 02/2008
+            until: 06/2009
+      reserv:
+        company:
+          name: "Reserv S.R.L."
+          link: "http://www.reserv.com.ar"
+        roles:
+          leaditarch:
+            title: "Lider de desarrollo / Arquitecto IT"
+            description: "Trabajando en Reserv tuve la posibilidad de pasar por un amplio rango de industras, proveyendo servicios de IT mayoritariamente construyendo Aplicaciones \"Enterprise\" para los clientes de la compañía.<br /> Como lider de desarrollo, escribí incontables líneas de código en diferentes tecnologías, convirtiendome en un experto diseñador de software, líder técnico y finalmente Arquitecto IT.<br /> <br /> Durante mi estadía en Reserv, logré refinar mis habilidades técnicas mientras que desarrollaba sólidas capacidades de liderazgo. También tuve la oportunidad de interactuar directamente con los clientes, relevando requerimientos, y construyendo relaciones de confianza basadas en cumplir con los compromisos de la compañía."
+            since: 08/2004
+            until: 01/2008
+      digbang:
+        company:
+          name: "Digbang"
+          link: "http://www.digbang.com"
+        roles:
+          dev:
+            title: "Desarrollador de Software"
+            description: "Comencé trabajadoen Digbang como desarrollador de Software con sólidos conocimientos técnicos pero poca experiencia trabajando en empresas. Trabajando con un excelente grupo de profesionales de la industria de IT, involucrándome en una amplia variedad de proyectos, e impulsado por una inagotable curiosidad, pude mejorar mis habilidades rápidamente, convirtiéndome en Desarrollador Senior en poco más de un año."
+            since: 05/2003
+            until: 08/2004
+      vlagusa:
+        company:
+          name: "VlagUSA"
+          link: ""
+        roles:
+          dev:
+            title: "Desarrollador de Software"
+            description: "Aquí comenzó mi carrera profesional. Debido a que se trataba de una pequeña empresa con dos equipos de un desarrollador, durante mi estadía en VlagUSA pude aprender acerca del ciclo de vida del desarrollo de punta a punta, desde el relevamiento de requerimientos hasta la implementación y mantenimiento de las aplicaciones.<br /> Escribí 40+ aplicaciones de e-commerce (carros de compra) para clientes de un amplio rango de industrias. Aprendí (de la mala manera) los motivos para trabajar con buenas prácticas, reutilizar, automatizar pruebas y versionar código y bases de datos."
+            since: 05/2002
+            until: 04/2003
+
+    own-projects:
+
+      gallery: "Galeria"
+      links: "Enlaces"
+
+
+      apisar: "APIsAR"
+      apisar-role: "Fundador y Organizador del grupo de Meetup"
+      apisar-desc: "APIsAR (APIs Argentina) es la primer y única comunidad dedicada a debatir acerca del mundo de las APIs. La comunidad fue lanzada oficialmente el 9 de Septiembre del 2015 y al momento de su primer evento, contaba con más de 300 miembros principalmente de Argentina, otros países de Latino América y España."
+      meetup-space: "Espacio en Meetup"
+      twitter-account: "Cuenta de Twitter"
+      facebook-page: "Página de Facebook"
+      youtube-channel: "Canal de YouTube"
+
+      nobel: "Nobel"
+      nobel-role: "Investigador y Desarrollador"
+      nobel-desc: "Nobel es un generador de código capáz de escribir el esqueleto de una aplicación para Arduino exponiendo una API REST, partiendo de una definición Swagger o RAML. Es sencillo de usar incluso para desarrolladores con poca experiencia en Arduino, y la curva de aprendizaje lleva apenas unos minutos.<br /> Construí la primer versión de esta herramienta durante una hackathon libre, y ocasionalmente fui manteniendola y agregando algunas funcionalidades."
+      nobel-home: "Sitio Web"
+      github-repo: "Repositorio GitHub"
+      npm-repo: "Repositorio NPM"
+      blog-posts: "Blog Posts"
+
+      articles: "Artículos"
+      articles-role: "Escritor"
+      articles-desc: "Mezclando mi pasión por el Desarrollo de Software, la investigación, la escritura y la enseñanza, paso una buena cantidad de tiempo escribiendo artículos para compartir conocimientos o intereses con la comunidad de Software. Además de los posts en mi propio blog (<a href=\"http://ourbit.github.io\" target=\"_blank\">OurBit</a>), he contribuido a otros blogs también."
+      several: "varios"
+
+      arduino-helpers: "Arduino Helpers"
+      arduino-helpers-role: "Investigador y Desarrollador"
+      arduino-helpers-desc: "Arduino Helpers es un set de librerías que permiten a cualquier desarrollador manejar componentes electrónicos (compatibles con Arduino) de una forma más abstacta. Utilizando estas librerías, los componentes son modelados como clases y objetos y pueden encapsular su propio comportamiento. <br /> Este es un proyecto \"community\" cuyo mayor objetivo es el de proveer algunas herramientas para otros desarrolladores. Como un efecto secundario, es esperado que otros desarrolladores comiencen a contribuir con el repositorio para hacer una librería más grande y variada."
+      arduino-helpers-github-repo: "Repositorio GitHub"
+
+    about-me:
+      music: "MUSICA"
+      music-desc: "Desde chico, siempre disfruté pasar una buena cantidad de tiempo escuchando y tocando música. En la actualidad too guitarra y teclados casi todos los días y estudio un poco de teoría de vez en cuando."
+      literature: "LITERATURA"
+      literature-desc: "Habitualmente paso varias horas por semana leyendo. A pesar de preferir los libros, debo confesar que mi Kindle se ha convertido en un gran compañero. En el pasado solía escribir algunos cuentos, pero actualmente me encuentro más enfocado en escribir acerca de Software."
+      robotics: "ROBOTICA"
+      robotics-desc: "Me gusta construir y programar dispositivos electrónicos capaces de interactuar con el mundo físico. Me considero un precursor de la ola de IoT. Cuando encuentro algo de tiempo libre, me dedico a desarrollar algún proyecto relacionado con IoT."
+      software: "SOFTWARE"
+      software-desc: "Este área va más allá de un mero interés. He pasado toda mi carrera profesional dedicado a mi verdadrea vocación: Constuir Software. He disfrutado esta disciplina-arte-artesanía desempeñando diferentes roles a lo largo de estos años (Desarrollador, Arquitecto, Manager), lo cual me ha provisto de un amplio rango de habilidades y conocimientos y un profundo conocimiento y entendimiento del ciclo de vida de desarrollo de Software."
+
+
+header-img: img/header-background.jpg
+header-img-blur: img/header-background-blur.jpg
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://norbertoherz.com" # the base hostname & protocol for your site
+twitter_username: nohorbee
+github_username:  nohorbee
+facebook_username:  nohorbee
+
+# Build settings
+markdown: kramdown
