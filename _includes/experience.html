@@ -1,0 +1,50 @@
+{% assign experiences = site.sections[page.lang].experience %}
+<section id="experience">
+  <div class="main experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table full-height">
+            <div class="tablecell valign-top">
+              <h1>{{site.navigation[page.lang].experience.title}}</h1>
+              {% for experience in experiences %}
+              <div id="experience-medallia">
+                <header>
+                  <h3 class="experience-logo" aria-hidden="true">
+                    <strong><img src="{{ site.baseurl }}/img/{{experience[0] | downcase}}-logo.png" alt="" class="img-responsive"></strong>
+                  </h3>
+                  {% for role in experience[1].roles %}
+                  <h3>
+                    {{role[1].title}}
+                  </h3>
+                  <h4>
+                    <strong><a {%if experience[1].company.link != "" %}href="{{experience[1].company.link }}"{%endif%} target="_blank">{{experience[1].company.name}}</a></strong>
+                  </h4>
+                  <h5>
+                    {% assign since = role[1].since | split: '/' %}
+                    {% assign until = role[1].until | split: '/' %}
+                    <time> {% assign convertMonth = since[0] %} {% include month.fn %} {{since[1]}}</time> – <time>{%if until.size == 0%}{{site.lang.currently[page.lang]}}{%endif%}{% assign convertMonth = until[0] %} {% include month.fn %} {{until[1]}}</time> | Argentina</h5>
+
+                </header>
+                <p> {{role[1].description}}
+
+                </p>
+                {%endfor%}
+              </div>
+              {%unless forloop.last)%}
+                <hr class="experience">
+              {%endunless%}
+
+              {% endfor %}
+
+<!-- aca -->
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
