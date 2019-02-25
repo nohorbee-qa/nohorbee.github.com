@@ -38,7 +38,7 @@ navigation:
         title: "|"
     ourbit-blog:
         title: "Ourbit blog"
-        url: "http://norbertoherz.com"
+        url: "http://ourbit.norbertoherz.com"
   es:
     experience:
         title: "Experiencia"
@@ -59,7 +59,7 @@ navigation:
         title: "|"
     ourbit-blog:
         title: "Ourbit blog"
-        url: "http://norbertoherz.com"
+        url: "http://ourbit.norbertoherz.com/index.es.html"
 
 lang:
   version:
