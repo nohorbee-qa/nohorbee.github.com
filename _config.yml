@@ -211,14 +211,13 @@ As an Engineering Manager, it is my responsibility to lead high-performance team
         roles:
           engdirector:
             title: "Director of Engineering"
-            description: "Running the Integrations Platform organization pursuing the mission of connecting the Avature Platform with the world in a smart an efficient manner.
-As a Director of Engineering, I'm in charge of defining and executing the company's strategy for connecting our platform with virtually any existing system. I'm responsible for setting a common direction for our organization's team in order to achieve our milestones."
+            description: "Conduciendo a la organización de "Integrations Platform" en la misión de conectar la plataforma de Avature con el mundo de manera eficiente.
+Como Director de Ingeniería, estoy encargado de definir y ejecutar la estrategia de la compañía de cara a lograr el objetivo de conectar nuestra plataforma con cualquier sistema existente. Tengo la responsabilidad de definir una dirección en común para todos los equipos de nuestra organización para alcanzar nuestros desafíos."
             since: 01/2019
             #until: TBC
           srmanager:
             title: "Engineering Manager"
-            description: "Managing and growing Product Engineering teams building modules to support critical missions for Avature, such as Processes Automation and Employee Engagement.
-As an Engineering Manager, it is my responsibility to lead high-performance teams to success by orchestrating complex aspects of software development. I use a blend of technical and managerial skills to drive my teams into achieving remarkable milestones and encouraging other teams to be part of a transformative culture."
+            description: "Liderando y haciendo crecer los equipos de "Product Engineering" encargados de construir módulos que contribuyen a misiones críticas para Avature, como ser Automatización de Procesos y "Engagement" del empleado. Como Manager de Ingeniería, es mi responsabilidad conducir al éxito a equipos de alto rendimiento mediante la coordinación de diferentes aspectos complejos del desarrollo de software. Utilizo una combinación de conocimientos técnicos y habilidades de management para lograr que mis equipos alcancen hitos notables e incentivar a otros equipos a participar de una cultura transformadora."
             since: 10/2016
             until: 12/2018
       medallia:
