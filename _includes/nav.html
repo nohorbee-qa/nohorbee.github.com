@@ -16,14 +16,12 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 
-
                   {% assign links=site.navigation[page.lang] %}
                   {% for link in links %}
                     <li>
-
-                        {% if link[1][page.lang].path %}
-                          {% assign url = link[1][page.lang].path %}
-                          <a href="{{ site.baseurl }}/{{ url }}">{{ link[1].title }}</a>
+                        {% if link[1].path %}
+                          {% assign url = link[1].path %}
+                        <a href="{{ url }}">{{ link[1].title }}</a>
                         {% else if link[1].url %}
                           {% assign url = link[1].url %}
                           <a href="{{ url }}">{{ link[1].title }}</a>
@@ -31,6 +29,7 @@
 
                     </li>
                   {% endfor %}
+
                 <li>
                    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
                    {% for post in posts %}
