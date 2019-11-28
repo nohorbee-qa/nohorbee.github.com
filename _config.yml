@@ -332,7 +332,7 @@ Como Director de Ingeniería, estoy encargado de definir y ejecutar la estrategi
 header-img: img/header-background.jpg
 header-img-blur: img/header-background-blur.jpg
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/nohorbee.github.com" # the subpath of your site, e.g. /blog
 url: "http://norbertoherz.com" # the base hostname & protocol for your site
 twitter_username: nohorbee
 github_username:  nohorbee
