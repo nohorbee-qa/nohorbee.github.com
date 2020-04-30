@@ -307,6 +307,9 @@
                         <hr class="own-projects">
 
 
+                  
+
+
 
 
 
@@ -349,10 +352,103 @@
                             </div>
                           </div>
 
+                        </div>
+
+                        <hr class="own-projects">
+
+                        <div id="own-projects-talks" class="">
+                          <div class="container">
+                            <div class="row equal">
+                              <div class="col-md-8 col-xs-12 col-sm-12">
+                                <header>
+                                  <div>
+                                <h3 class="own-projects-logo" aria-hidden="true">
+                                  <strong><img src="{{ site.baseurl }}/img/talks-logo.png" class="img-responsive"></strong>
+                                </h3>
+                                <span class="own-projects">
+                                  <h3 class="own-projects">
+                                    <a href="http://nohorbee.github.io/nobel" target="_blank">{{ own-projects.talks }}</a>
+                                  </h3>
+                                  <h4 class="own-projects"><strong>{{ own-projects.talks-role }}</strong></h5>
+                                </span>
+                              </div>
+                              </header>
+
+                              <p>
+                                {{ own-projects.talks-desc }}
+                              </p>
+
+
+                              <h4 class="own-projects-subtitle">{{ own-projects.gallery }}</h4>
+
+                              <div class="responsive">
+                                <div class="img">
+                                  <a target="_blank" href="{{ site.baseurl }}/img/own-projects/articles/articles-1.jpg">
+                                    <img src="{{ site.baseurl }}/img/own-projects/articles/articles-1-thumb.jpg">
+                                  </a>
+                                </div>
+                              </div>
+
+                              <div class="responsive">
+                                <div class="img">
+                                  <a target="_blank" href="{{ site.baseurl }}/img/own-projects/articles/articles-2.jpg">
+                                    <img src="{{ site.baseurl }}/img/own-projects/articles/articles-2-thumb.jpg">
+                                  </a>
+                                </div>
+                              </div>
+
+                              <div class="responsive">
+                                <div class="img">
+                                  <a target="_blank" href="{{ site.baseurl }}/img/own-projects/articles/articles-3.jpg">
+                                    <img src="{{ site.baseurl }}/img/own-projects/articles/articles-3-thumb.jpg">
+                                  </a>
+                                </div>
+                              </div>
+
+                              <div class="responsive">
+                                <div class="img">
+                                  <a target="_blank" href="{{ site.baseurl }}/img/own-projects/articles/articles-4.jpg">
+                                    <img src="{{ site.baseurl }}/img/own-projects/articles/articles-4-thumb.jpg">
+                                  </a>
+                                </div>
+                              </div>
+
+                              <div class="clearfix"></div>
+
+
+                              <script>
+                              $('.img').magnificPopup({
+                                delegate: 'a', // child items selector, by clicking on it popup will open
+                                type: 'image'
+                                // other options
+                              });
+                              </script>
+
+
+                              <h4 class="own-projects-subtitle">{{ own-projects.links }}</h4>
+                              <ul>
+                                <li><a href="http://blogs.mulesoft.com/author/norberto-herz/" target="_blank">Norberto Herz ({{ own-projects.several }}) - MuleSoft Blog</a></li>
+                                <li><a href="http://raml.org/blogs/osprey-out" target="_blank">Osprey is Out - RAML Blog</a></li>
+                                <li><a href="http://raml.org/blogs/new-community-projects" target="_blank">New Community projects - RAML Blog</a></li>
+                                <li><a href="http://raml.org/blogs/mocking-service-walkthrough" target="_blank">Mocking Service walkthrough - RAML Blog</a></li>
+                                <li><a href="http://lifeatavature.net/extensibility-for-the-win/" target="_blank">Extensibility for the Win - Life At Avature Blog</a></li>
+                                <li><a href="http://lifeatavature.net/team-hand-off-document/" target="_blank">Team hand-off document - Life At Avature Blog</a></li>
+
+                              </ul>
+                              </div>
+                              <div class="col-md-4 hidden-xs hidden-sm">
+                                <img src="{{ site.baseurl }}/img/own-projects/articles/articles-roll.png" alt="Articles" class="roll left" style="width:310px">
+                              </div>
+                            </div>
+                          </div>
+
 
 
 
                         </div>
+
+
+                        
 
                       </div>
                     </div>

@@ -190,6 +190,11 @@ As an Engineering Manager, it is my responsibility to lead high-performance team
       arduino-helpers-desc: "Arduino Helpers is a set of libraries that let any developer to deal with some electronic components (Arduino compatible) in a higher level manner. By using these libraries, the electronic components are modeled as classes and objects and can encapuslate their own behavior. <br /> This is a community project which main goal is to provide some tools for other developers. As a side effect, it is expected that other developers start contributing to the repository in order to make a big and seasoned library."
       arduino-helpers-github-repo: "GitHub Repository"
 
+      talks: "Talks"
+      talks-role: "Speaker"
+      talks-desc: "Lorem ipsum"
+      
+
     about-me:
       music: "MUSIC"
       music-desc: "Since I was a kid, I always enjoyed spending some good time listening and playing. Nowadays, I play guitar and keyboards almost every day and study some theory every now and then."
